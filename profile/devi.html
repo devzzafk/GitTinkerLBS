@@ -1,6 +1,76 @@
-<div class="profile-card">
-  <img src="../images/devi.jpg" alt="Devi">
-  <h2>Devi</h2>
-  <p>GitHub Contributor</p>
-  <a href="https://github.com/devzzafk" target="_blank">GitHub</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devi - TinkerHub Profile</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .profile-card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-card:hover {
+      transform: scale(1.02);
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #00796b;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin-top: 1rem;
+      color: #00796b;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #00796b;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="../images/devi.jpg" alt="Devi" />
+    <h1>Devi</h1>
+    <p>Hi! I'm Devi, a GitHub enthusiast and TinkerHub member.<br>
+       I love learning new tech, coding, and collaborating with others.</p>
+    <p>Email: devzzafk@gmail.com</p>
+    <a href="../index.html">← Back to Gallery</a>
+  </div>
+</body>
+</html>
